@@ -57,8 +57,6 @@ main{
 img.desctop-img{
     display: none;
     visibility: hidden;
-    mix-blend-mode: multiply;
-    opacity: 80%;
 }
 
 
@@ -70,6 +68,8 @@ div.img-box{
 
 img.mobile-img{
     width: 100%;
+    mix-blend-mode: multiply;
+    opacity: 80%;
 }
 
 div.img-box::after{
