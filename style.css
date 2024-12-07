@@ -57,12 +57,10 @@ main{
 img.desctop-img{
     display: none;
     visibility: hidden;
-}
-
-img{
     mix-blend-mode: multiply;
     opacity: 80%;
 }
+
 
 div.img-box{
     position: relative;
@@ -145,6 +143,8 @@ div.attribution{
         visibility: visible;
         object-fit: cover;
         object-position: center;
+        mix-blend-mode: multiply;
+        opacity: 80%;
     }
 
     main{
