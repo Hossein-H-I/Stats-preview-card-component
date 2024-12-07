@@ -72,15 +72,7 @@ img.mobile-img{
     opacity: 80%;
 }
 
-div.img-box::after{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: hsla(277, 64%, 61%, .6);
-}
+
 
 div.content-box{
     padding: 1.2rem;
